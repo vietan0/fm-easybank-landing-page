@@ -3,8 +3,20 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  line-height: 1.5;
-  font-weight: 400;
-  color-scheme: light dark;
+@layer base {
+  :root {
+    line-height: 1.5;
+    font-size: 14.5px;
+  }
+
+  img {
+    object-fit: contain;
+  }
+}
+
+@layer components {
+  .wrapper {
+    /* limit content while allowing background color to grow horizontally */
+    @apply m-auto max-w-6xl;
+  }
 }
