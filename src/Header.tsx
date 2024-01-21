@@ -53,9 +53,9 @@ export default function Header({}: Props) {
         </button>
         <nav
           ref={navRef}
-          className={`${navIsOpen ? "translate-x-0" : "translate-x-[500px]"} fixed right-4 top-20 z-10 flex h-fit w-[calc(100%_-_32px)] flex-col rounded-lg bg-white shadow-2xl duration-150 ease-out xs:right-12 xs:w-52 md:static md:h-auto md:w-full md:translate-x-0 md:flex-row md:justify-end md:gap-16 md:p-0 md:shadow-none`}
+          className={`${navIsOpen ? "translate-x-0" : "translate-x-[500px]"} fixed right-4 top-20 z-10 flex h-fit w-[calc(100%_-_32px)] flex-col overflow-hidden rounded-lg bg-white shadow-2xl outline outline-2 outline-slate-300 duration-150 ease-out xs:right-12 xs:w-52 md:static md:h-auto md:w-full md:translate-x-0 md:flex-row md:justify-end md:gap-16 md:p-0 md:shadow-none md:outline-none`}
         >
-          <ul className="flex h-full flex-col gap-0 md:flex-row">
+          <ul className="flex h-full flex-col gap-0 py-3 md:flex-row md:py-0">
             {navs.map((text) => (
               <li key={text}>
                 <a
