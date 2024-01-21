@@ -13,9 +13,9 @@ export default function Hero() {
             id="text"
             className="flex flex-col gap-3 self-center text-center xs:gap-6 sm:max-w-[400px] sm:text-left"
           >
-            <p className="text-4xl sm:text-5xl sm:leading-[1.2]">
+            <h2 className="text-4xl sm:text-5xl sm:leading-[1.2]">
               Next generation digital banking
-            </p>
+            </h2>
             <p className="text-grey-blue">
               Take your financial life online. Your Easybank account will be a
               one-stop-shop for spending, saving, budgeting, investing, and much

@@ -7,11 +7,12 @@ import Hero from "./Hero";
 export default function App() {
   return (
     <div className="min-h-screen bg-white">
-      <h1 className="sr-only">
-        Easybank landing page - Frontend Mentor Challenge - Solution by Viet An
-      </h1>
       <Header />
       <main className="relative overflow-hidden">
+        <h1 className="sr-only">
+          Easybank landing page - Frontend Mentor Challenge - Solution by Viet
+          An
+        </h1>
         <Hero />
         <Features />
         <Articles />
