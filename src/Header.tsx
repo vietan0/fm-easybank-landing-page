@@ -2,11 +2,10 @@ import { useEffect, useRef, useState } from "react";
 import { XMarkIcon, Bars4Icon } from "@heroicons/react/24/solid";
 import logo from "./assets/images/logo.svg";
 import CTAButton from "./CTAButton";
-type Props = {};
 
 const navs = ["Home", "About", "Contact", "Blog", "Careers"];
 
-export default function Header({}: Props) {
+export default function Header() {
   const [navIsOpen, setNavIsOpen] = useState(false);
   function toggleNavIsOpen(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
     e.stopPropagation(); // stop triggering closeNavWhenClickOutside (which attached to document)
