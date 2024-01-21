@@ -1,3 +1,5 @@
+import Articles from "./Articles";
+import Features from "./Features";
 import Header from "./Header";
 import Hero from "./Hero";
 
@@ -7,12 +9,8 @@ export default function App() {
       <Header />
       <main className="relative overflow-hidden">
         <Hero />
-        <section className="h-80" id="features">
-          Features
-        </section>
-        <section className="h-40" id="articles">
-          Articles
-        </section>
+        <Features />
+        <Articles />
       </main>
       <footer className="h-20">Footer</footer>
     </div>

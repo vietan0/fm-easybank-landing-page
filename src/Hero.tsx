@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <>
       <section
-        className="bg-grey-blue-light bg-bg-mobile bg-contain bg-[left_top_-160px] bg-no-repeat px-10 pb-8 pt-[calc(100vw_-_200px)] sm:bg-bg-desktop sm:bg-[length:1000px] sm:bg-[calc(50%_+_500px)] sm:px-10 sm:pt-0 lg:px-20"
+        className="bg-white-98 bg-bg-mobile bg-contain bg-[left_top_-160px] bg-no-repeat px-4 pb-8 pt-[calc(100vw_-_200px)] xs:px-10 sm:bg-bg-desktop sm:bg-[length:1000px] sm:bg-[calc(50%_+_500px)] sm:pt-0 lg:px-20"
         id="hero"
       >
         <div className="wrapper flex h-96 justify-center sm:h-[500px] sm:justify-normal">
@@ -13,7 +13,7 @@ export default function Hero() {
             id="text"
             className="flex flex-col gap-3 self-center text-center xs:gap-6 sm:max-w-[400px] sm:text-left"
           >
-            <p className="text-4xl text-dark-blue sm:text-5xl sm:leading-[1.2]">
+            <p className="text-4xl sm:text-5xl sm:leading-[1.2]">
               Next generation digital banking
             </p>
             <p className="text-grey-blue">

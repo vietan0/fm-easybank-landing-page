@@ -7,6 +7,7 @@
   :root {
     line-height: 1.5;
     font-size: 14.5px;
+    @apply text-dark-blue;
   }
 
   img {
@@ -17,6 +18,6 @@
 @layer components {
   .wrapper {
     /* limit content while allowing background color to grow horizontally */
-    @apply m-auto max-w-6xl;
+    @apply m-auto max-w-7xl;
   }
 }
